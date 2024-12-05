@@ -1,6 +1,7 @@
 # net_aware
-
-A Flutter plugin to handle **no internet connection** scenarios with ease. Display customizable widgets when the device is offline, and seamlessly manage internet reconnection logic in your apps.
+net_aware is a Flutter plugin that allows you to easily integrate no internet handling into your Flutter application. 
+This plugin is designed to be initialized in the main.dart file or any other entry point of your app, 
+ensuring it wraps the MaterialApp widget for proper functionality.
 
 ## Features
 
