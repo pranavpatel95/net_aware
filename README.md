@@ -90,9 +90,9 @@ Parameters that can be used:
 | imageAsset    | String?  | assets/no_internet.jpg | Path to a custom offline image asset.                                        |
 | bgColor       | Color?   | Colors.white           | Background color for the offline screen.                                     |
 | appBar        | AppBar?  | null                   | A custom AppBar for the offline screen.                                      |
-| customWidget  | Widget?  | null                   | A fully custom widget for the offline state. Overrides all other parameters. |
+| offlineWidget  | Widget?  | null                   | A fully custom widget for the offline state. Overrides all other parameters. |
 
-Default screen when device will be offline:
+Default screen when device will be offline: <br>
 ![Screenshot](assets/app_ss.png)
 
 Developed by: <br>
