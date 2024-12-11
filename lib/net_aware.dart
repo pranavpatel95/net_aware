@@ -67,6 +67,7 @@ class NetAwareState extends State<NetAware> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: _isOnline
             ? widget.child
