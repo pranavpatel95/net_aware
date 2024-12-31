@@ -1,5 +1,7 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Initial release.
 ## 0.0.3
 * Debug banner removed
+## 1.0.4
+* Optional support for material app widget added. 
