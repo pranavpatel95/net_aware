@@ -1,6 +1,6 @@
 name: net_aware
 description: "A wrapper widget to detect no internet and block ui with an overlay."
-version: 1.0.4
+version: 1.0.5
 repository: https://github.com/pranavpatel95/net_aware
 
 environment:

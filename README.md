@@ -31,9 +31,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return NetAware(
-      child: MaterialApp(
-        home: MyHomePage(),
-      ),
+      child: MyHomePage(),
     );
   }
 }
@@ -70,16 +68,13 @@ class MyApp extends StatelessWidget {
           ],
         ),
       ),
-      child: MaterialApp(
-        home: Scaffold(
-          appBar: AppBar(title: Text('Home')),
-          body: Center(child: Text('Welcome online!')),
-        ),
+      child: Scaffold(
+        appBar: AppBar(title: Text('Home')),
+        body: Center(child: Text('Welcome online!')),
       ),
     );
   }
 }
-
 ```
 
 ## Additional Details
